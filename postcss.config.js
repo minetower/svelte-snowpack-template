@@ -3,8 +3,8 @@ const autoprefixer = require('autoprefixer')
 const cssnano = require('cssnano')
 
 const plugins =
-  process.env.NODE_ENV === 'production'
-    ? [tailwind, autoprefixer, cssnano]
-    : [tailwind, autoprefixer]
+	process.env.NODE_ENV === 'production'
+		? [tailwind, autoprefixer, cssnano]
+		: [tailwind, autoprefixer]
 
 module.exports = { plugins }
