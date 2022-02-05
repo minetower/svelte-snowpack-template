@@ -10,6 +10,8 @@ To use this template:
 
 ```bash
 npx degit minetower/svelte-snowpack-template path/to/dir
+cd path/to/dir
+yarn install
 ```
 
 or use as template from Github.
@@ -37,7 +39,3 @@ Formats all files according to rules defined in `.eslintrc.yaml` and `.prettierr
 ### `yarn build`
 
 Builds a static copy of your site to the `build/` folder. Your app is ready to be deployed!
-
-# License
-
-MIT

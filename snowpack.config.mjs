@@ -15,14 +15,14 @@ export default {
 		'@snowpack/plugin-svelte',
 		'@snowpack/plugin-postcss',
 		'@snowpack/plugin-dotenv',
-		[
+		/*[
 			'@snowpack/plugin-run-script',
 			{
 				cmd: 'svelte-check --output human',
 				watch: '$1 --watch',
 				output: 'stream',
 			},
-		],
+		],*/
 	],
 	routes: [
 		/* Enable an SPA Fallback in development: */
