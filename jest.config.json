@@ -1,0 +1,6 @@
+{
+  "transform": {
+    "^.+\\.svelte$": "svelte-jester"
+  },
+  "moduleFileExtensions": ["js", "svelte"]
+}
